@@ -1,0 +1,23 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "description": "Text based tic tac toe game.",
+  "main": "TicTacToe text_based.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogrock2/tic_tac_toe.git"
+  },
+  "author": "dogrock2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dogrock2/tic_tac_toe/issues"
+  },
+  "homepage": "https://github.com/dogrock2/tic_tac_toe#readme",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "inquirer": "^6.0.0"
+  }
+}
