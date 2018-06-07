@@ -1,0 +1,45 @@
+
+#wrapper { 
+        text-align: center;
+}
+#botContainer { 
+        font-weight: bold; 
+}
+#mainContainer { 
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;  
+        flex-grow: 0;  
+        height: 50vh;
+        width: 25vw;
+        min-height: 300px;
+        min-width: 300px; 
+        padding: 10px;
+ }
+.boxesCnt {
+        display: flex;
+        flex: 1;
+}
+.modSize { 
+        flex-grow:  1;
+        padding: 5vh 0;
+        width: 100px;        
+}
+#box1, #box3, #box4, #box6 {          
+        border-bottom: 5px solid #000000;
+}
+#box2, #box5 {         
+        border-bottom: 5px solid #000000;
+        border-right: 5px solid #000000;
+        border-left: 5px solid #000000;
+} 
+#box8 {         
+        border-left: 5px solid #000000;
+        border-right: 5px solid #000000;        
+}
+.imgXO {
+        height: 65px;
+        width: 65px;
+        z-index: 1;
+}
+
